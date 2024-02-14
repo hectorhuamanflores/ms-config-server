@@ -1,1 +1,1 @@
-# project-one-ms-account
+# ms-config-server
