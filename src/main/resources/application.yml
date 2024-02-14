@@ -1,0 +1,11 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/hectorhuamanflores/config-server-list.git
+  application:
+    name: config-server
